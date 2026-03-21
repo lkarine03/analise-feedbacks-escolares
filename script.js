@@ -7,6 +7,6 @@ busca.addEventListener("input", () => {
     itens.forEach(item => {
         const conteudo = item.textContent.toLowerCase();
 
-        item.style.display = conteudo.includes(texto) ? "block" : "none";
+        item.style.display = conteudo.includes(texto) ? "" : "none";
     });
 });
