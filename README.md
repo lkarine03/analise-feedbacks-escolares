@@ -1,32 +1,28 @@
-# Facilita Conselho de Classe
+# Análise de Feedbacks Escolares
 
-Sistema web desenvolvido para organizar e facilitar a visualização de feedbacks de alunos em reuniões de conselho de classe.
+Sistema desenvolvido para organizar e facilitar a análise de feedbacks de alunos coletados por formulários.
 
-## Tecnologias
-- HTML
-- CSS
-- JavaScript
+##  Objetivo
+O projeto tem como objetivo melhorar a leitura e interpretação de respostas discursivas, permitindo identificar padrões como elogios, reclamações e dificuldades de forma mais rápida.
 
 ## Funcionalidades
-- Inserção de feedbacks
-- Pesquisa por palavras-chave
-- Filtragem de informações
-- Organização de dados para melhor leitura
+- Filtragem de feedbacks por palavra-chave
+- Organização por áreas (Linguagens, Exatas, Humanas, etc)
+- Interface simples para visualização dos dados
 
-## Como funciona
-O sistema permite buscar feedbacks a partir de palavras-chave, como:
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript (manipulação do DOM e filtros dinâmicos)
 
-- Elogios
-- Reclamações
-- Dificuldades
-- Sugestões
-- Comportamento
-- Participação
+## Destaque técnico
+- Uso de JavaScript para filtrar dados em tempo real
+- Manipulação de elementos do DOM
+- Organização de dados textuais para facilitar análise
 
-Com isso, é possível filtrar e visualizar rapidamente as informações mais relevantes, facilitando a análise durante o conselho de classe.
+## Como executar
+1. Clone o repositório
+2. Abra o arquivo `index.html` no navegador
 
-## Objetivo
-Facilitar a organização e interpretação de opiniões dos alunos, tornando o processo de análise mais ágil e eficiente.
-
-## Contexto
-Projeto desenvolvido com base na experiência como representante de turma, visando melhorar a comunicação e organização de informações acadêmicas.
+## Observação
+Projeto focado em organização de informações e melhoria na análise de dados qualitativos.
